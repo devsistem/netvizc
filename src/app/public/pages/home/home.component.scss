@@ -1,6 +1,42 @@
-.background{
-  background: url("/assets/img/home.png") no-repeat;
+.content-n{
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -200; 
+}
+.d{
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100vh;
+  width: 100vw; 
+  background-color: rgba(10, 10, 10,1);
+  z-index: -400; 
+}
+.img{
+  
+  
+  height: 100vh;
+  width: 100vw; 
+  z-index: -300; 
+}
+
+.propuesta-valor{
+  position: absolute; 
+ 
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
   width: 100vw;
-  background-size: 1700px 1000px;
+  height: 90vh;
+  
+}
+.propuesta-valor>h1{
+  
+  color: rgb(10, 10, 10);
+  margin-top: auto;
+  padding: 1rem;
+  font-size: 2.3rem;
+  text-shadow: 1px 1px rgb(119, 113, 113);
 }

@@ -26,11 +26,24 @@ a.nav-link:hover{
 .dropdown-item:hover{
   opacity: 1; 
 }
-h6 {
-  font-size: 1.2em;
-  height: 100%;
-  opacity: 1;
+.dropdown-header-netvizc {
+  display: block;
+  padding: .7rem 1rem .5rem 1rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: #2b612f;
+  white-space: nowrap;
 }
 .dropdown-item{
-  
+  padding-left: 2rem;
 }
+.dropdown-item:hover{
+  color: #2b612f;
+  font-weight: bold;
+}
+
+app-navbar{
+  height: 10vh;
+}
+
+
