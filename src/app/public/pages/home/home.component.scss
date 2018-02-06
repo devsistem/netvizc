@@ -29,7 +29,7 @@
       background-repeat: no-repeat;
       .propuesta-valor>h1{
   
-        color:red;
+        color:white;
        // margin-top: auto;
       
         font-size: 1rem;
@@ -50,6 +50,7 @@
   justify-content: flex-end;
   width: 100vw;
   height: 100vh;
+  z-index: -200; 
   
 }
 .propuesta-valor{
