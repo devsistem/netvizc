@@ -4,10 +4,15 @@
   top: 0;
   left: 0;
   z-index: -200; 
+  height: 100vh;
+  width: 100vw; 
+  display: flex;
+  align-content: stretch;
 }
 
 .img{
   filter: brightness(80%);
+
   height: 100vh;
   width: 100vw; 
   z-index: -300;
@@ -26,7 +31,7 @@
 }
 
 
-.propuesta-valor{
+.content-propuesta-valor{
   position: absolute;
   top: 0;
   left: 0;
@@ -38,11 +43,15 @@
   height: 100vh;
   
 }
+.propuesta-valor{
+  
+  width: 50%;
+}
 .propuesta-valor>h1{
   
   color:white;
  // margin-top: auto;
-  padding-right: 1rem;
+
   font-size: 2rem;
   text-shadow: 1px 1px rgb(119, 113, 113);
 }
