@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PublicComponent } from './public.component';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './pages/home/home.component';
@@ -11,7 +11,6 @@ import { HomeComponent } from './pages/home/home.component';
     
     AppRoutingModule
   ],
-  declarations: [PublicComponent, HomeComponent],
-  bootstrap: [PublicComponent]
+  declarations: [HomeComponent]
 })
 export class PublicModule { }

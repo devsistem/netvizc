@@ -1,0 +1,48 @@
+.content-n{
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -200; 
+}
+
+.img{
+  filter: brightness(80%);
+  height: 100vh;
+  width: 100vw; 
+  z-index: -300;
+
+  background: url(/assets/img/home-pc-normal.png); 
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  @media all and (min-width: 300px) and (max-width:400px){
+      background: url(/assets/img/home-celular.png);
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+ 
+}
+
+
+.propuesta-valor{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 100vh;
+  
+}
+.propuesta-valor>h1{
+  
+  color:white;
+ // margin-top: auto;
+  padding-right: 1rem;
+  font-size: 2rem;
+  text-shadow: 1px 1px rgb(119, 113, 113);
+}

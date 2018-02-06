@@ -1,1 +1,49 @@
+// navbar-light
+.navbar-brand{
+  color: black;
+  span{
+    color: #2B612F;
+  }
+}
+a.nav-link{
+  color: #525252; 
+}
+a.nav-link:hover{
+  color:black;
+  font-weight: bold;
+}
+.nav-item.active > a {
+  color: #2B612F;
+  font-weight: bold;
+}
+.dropdown-menu{
+  
+  background: rgba(242,242,242,0.4);
+ // opacity: .4; 
+  border: none;
+  
+}
+.dropdown-item:hover{
+  opacity: 1; 
+}
+.dropdown-header-netvizc {
+  display: block;
+  padding: .7rem 1rem .5rem 1rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: #2b612f;
+  white-space: nowrap;
+}
+.dropdown-item{
+  padding-left: 2rem;
+}
+.dropdown-item:hover{
+  color: #2b612f;
+  font-weight: bold;
+}
+
+app-navbar{
+  height: 10vh;
+}
+
 
