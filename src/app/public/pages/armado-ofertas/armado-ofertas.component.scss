@@ -1,0 +1,50 @@
+.content-n{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -200; 
+  height: 100vh;
+  width: 100vw; 
+  display: flex;
+  align-content: stretch;
+}
+
+.img{
+  //filter: brightness(80%);
+  height: 100vh;
+  width: 100vw; 
+  z-index: -300;
+  float: none;
+  background: url(/assets/img/armado-ofertas-pc.png); 
+  background-size: 2000px 1300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  @media all and (min-width: 300px) and (max-width:400px){
+      background: url(/assets/img/armado-ofertas-celular.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      .propuesta-valor>h1{
+        color:white;    
+        font-size: 1rem;
+        text-shadow: 1px 1px rgb(119, 113, 113);
+      }
+  }
+ 
+}
+.list-netvizc{
+  margin-left: 30px;
+  width: 90%;
+  text-align: justify;
+}
+.card
+{
+  background: rgba(0, 0, 0, 0.267);
+  color: white;
+  text-align: justify;
+  width: 100%;
+  padding:40px;
+}
+.container{
+  height: 70vh;
+  padding: 70px;
+}

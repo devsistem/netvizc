@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './pages/home/home.component';
+import { ArmadoOfertasComponent } from './pages/armado-ofertas/armado-ofertas.component';
 
 @NgModule({
   imports: [
@@ -11,6 +12,6 @@ import { HomeComponent } from './pages/home/home.component';
     
     AppRoutingModule
   ],
-  declarations: [HomeComponent]
+  declarations: [HomeComponent, ArmadoOfertasComponent]
 })
 export class PublicModule { }
